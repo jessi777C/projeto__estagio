@@ -1,0 +1,53 @@
+.pricing-table {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-plan {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  box-shadow: 2px 2px 10px rgba(173, 168, 168, 0.843);
+}
+
+.pricing-plan h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #007bff;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #ff4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #ff8a71;
+}
